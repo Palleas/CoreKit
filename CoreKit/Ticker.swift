@@ -10,6 +10,8 @@ import Foundation
 import FoundationKit
 
 final public class Ticker {
+    public func init() {}
+    
     public func tick() {
         ContextManager().tick()
     }
