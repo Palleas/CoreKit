@@ -1,0 +1,24 @@
+PODS:
+  - FoundationKit (0.0.1):
+    - SwiftyUserDefaults (= 3.0)
+  - SwiftyUserDefaults (3.0.0)
+
+DEPENDENCIES:
+  - FoundationKit (from `git@github.com:Palleas/FoundationKit.git`)
+
+EXTERNAL SOURCES:
+  FoundationKit:
+    :git: git@github.com:Palleas/FoundationKit.git
+
+CHECKOUT OPTIONS:
+  FoundationKit:
+    :commit: f3d8ddb6d293c417f2566ff3dc18ca9ffb57569b
+    :git: git@github.com:Palleas/FoundationKit.git
+
+SPEC CHECKSUMS:
+  FoundationKit: 08395a8d00c6767e1258a10624a26e6c36deff14
+  SwiftyUserDefaults: 0f1d45fc3aafb9064dac661e367f8f83fe21a4b4
+
+PODFILE CHECKSUM: 2b682c5c7af3656bb6513e08525fc302a26615ae
+
+COCOAPODS: 1.1.1
