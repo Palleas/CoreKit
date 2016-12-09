@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.author             = { "Romain Pouclet" => "romain.pouclet@bdc.ca" }
   s.source       = { :git => "git@github.com:Palleas/CoreKit.git" }
   s.source_files  = "CoreKit/**/*.swift"
-  s.dependency "FoundationKit", :git => "git@github.com:Palleas/FoundationKit.git"
-
+  s.dependency "FoundationKit"
+  s.platform = :ios, "10.0"
 end
