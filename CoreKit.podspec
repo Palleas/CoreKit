@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "git@github.com:Palleas/CoreKit.git" }
   s.source_files  = "CoreKit/**/*.swift"
   s.dependency "FoundationKit"
-  s.platform = :ios, "10.0"
+  s.platform = :ios, '10'
 end
